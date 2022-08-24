@@ -9,7 +9,7 @@ function! sessions#session#session_save(name)
   let v:this_session = file_path
 
   echohl MoreMsg
-  echo 'Session `'.file_name.'` is now persistent'
+  echo 'Session `'.file_name.'` is now saved'
   echohl None
 endfunction
 
@@ -27,12 +27,27 @@ function! sessions#session#session_load(name)
     if &laststatus == 0
       set laststatus=2
     endif
-    echomsg 'Loaded "'.file_path.'" session'
+	echomsg 'Loaded "'.file_path.'" session'
+	if g:dashboard_auto_delete_session
+		echomsg 'Load and auto delete '.file_path
+		call sessions#session#session_remove('session')
+	endif
   else
     echohl ErrorMsg
     echomsg 'The session "'.file_path.'" doesn''t exist'
     echohl None
   endif
+endfunction
+
+function! sessions#session#session_remove(name)
+  let file_name = empty(a:name) ? 'session' : a:name
+  let file_path = g:session_directory.'/'.file_name.'.vim'
+  if filereadable(file_path)
+	  silent call delete(file_path)
+  else
+	  echomsg 'the session '.file_path.' not found'
+  endif
+
 endfunction
 
 function! sessions#session#session_list(A, C, P)

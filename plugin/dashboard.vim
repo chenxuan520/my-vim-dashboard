@@ -12,8 +12,8 @@ endif
 let s:home_dir = getenv('HOME')
 
 " Options
-let g:dashboard_version = '0.0.5'
-let g:dashboard_executive = get(g:,'dashboard_default_executive','clap')
+let g:dashboard_auto_delete_session = get(g:,'dashboard_auto_delete_session',1)
+let g:dashboard_executive = get(g:,'dashboard_default_executive','leaderf')
 let g:dashboard_fzf_window =get(g:,'dashboard_fzf_window',1)
 let g:dashboard_fzf_engine = get(g:,'dashboard_fzf_engine','rg')
 let g:session_directory = get(g:, 'dashboard_session_directory','.')
@@ -53,15 +53,19 @@ if g:session_enable
   command! -nargs=? -complete=customlist,sessions#session#session_list SessionLoad
     \ call sessions#session#session_load(<q-args>)
 
+  " delete the session
+  command! -nargs=? -complete=customlist,sessions#session#session_list SessionRemove
+    \ call sessions#session#session_remove(<q-args>)
+
   " Save session on quit if one is loaded
-  augroup plugin_sessions
-    autocmd!
+  " augroup plugin_sessions
+  "   autocmd!
     " If session is loaded, write session file on quit
-    autocmd VimLeavePre *
-      \ if ! empty(v:this_session) && ! exists('g:SessionLoad')
-      \ |   execute 'mksession! ' . fnameescape(v:this_session)
-      \ | endif
-  augroup END
+    " autocmd VimLeavePre *
+    "   \ if ! empty(v:this_session) && ! exists('g:SessionLoad')
+    "   \ |   execute 'mksession! ' . fnameescape(v:this_session)
+    "   \ | endif
+  " augroup END
 endif
 
 command! -nargs=0 -bar Dashboard call dashboard#instance(0)
