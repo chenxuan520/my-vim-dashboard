@@ -1,7 +1,4 @@
-" Plugin:      https://github.com/hardcoreplayers/dashboard-nvim
-" Description: A fancy start screen for Vim.
-" Maintainer:  Glepnir <http://github.com/glepnir>
-
+" change bu chenxuan
 function! dashboard#handler#new_file()
   if &laststatus == 0
       set laststatus=2

@@ -1,7 +1,4 @@
-" Plugin:      https://github.com/hardcoreplayers/dashboard-nvim
-" Description: A fancy start screen for Vim.
-" Maintainer:  Glepnir <http://github.com/glepnir>
-
+" change bu chenxuan
 let s:empty_lines = ['']
 let s:Section = {}
 let s:dashboard_shortcut={}
@@ -15,8 +12,8 @@ else
   let s:dashboard_shortcut['find_word'] = '[3]    '
   let s:dashboard_shortcut['last_session'] = '[4]    '
   let s:dashboard_shortcut['new_file'] = '[5]    '
-  let s:dashboard_shortcut['change_colorscheme'] = 'F1    '
-  let s:dashboard_shortcut['book_marks'] = 'q      '
+  let s:dashboard_shortcut['change_colorscheme'] = '[F1]  '
+  let s:dashboard_shortcut['book_marks'] = '[q]    '
 endif
 
 let s:dashboard_shortcut_icon['last_session'] = ' '
