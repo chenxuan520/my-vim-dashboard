@@ -27,7 +27,6 @@ function! sessions#session#session_load(name)
     if &laststatus == 0
       set laststatus=2
     endif
-	echomsg 'Loaded "'.file_path.'" session'
 	if g:dashboard_auto_delete_session
 		echomsg 'Load and auto delete '.file_path
 		call sessions#session#session_remove('session')
