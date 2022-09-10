@@ -32,34 +32,42 @@ if exists('g:dashboard_custom_section')
   call extend(s:Section, g:dashboard_custom_section)
 else
   " q to exit
-  execute 'nnoremap <buffer><silent>q :q<cr>'
-  execute 'nnoremap <buffer><silent>1 :LeaderfFile<cr>'
-  execute 'nnoremap <buffer><silent>2 :LeaderfMru<cr>'
-  execute 'nnoremap <buffer><silent>3 :Leaderf rg -i<cr>'
-  execute 'nnoremap <buffer><silent>4 :SessionLoad<cr>'
-  execute 'nnoremap <buffer><silent>5 :enew<cr>'
   let s:Section = {
     \ 'find_word'            :{
           \ 'description': [s:dashboard_shortcut_icon['find_word'].'Find word                             '.s:dashboard_shortcut['find_word']],
-          \ 'command': function('dashboard#handler#find_word')},
+          \ 'command': function('dashboard#handler#find_word'),
+          \ 'func_name': 'dashboard#handler#find_word()',
+          \ 'key': '3'},
     \ 'find_history'         :{
           \ 'description': [s:dashboard_shortcut_icon['find_history'].'Recently opened files                 '.s:dashboard_shortcut['find_history']],
-          \ 'command':function('dashboard#handler#find_history')},
+          \ 'command':function('dashboard#handler#find_history'),
+          \ 'func_name': 'dashboard#handler#find_history()',
+          \ 'key': '2'},
     \ 'new_file'             :{
           \ 'description': [s:dashboard_shortcut_icon['new_file'].'New file                              '.s:dashboard_shortcut['new_file']],
-          \ 'command':function('dashboard#handler#new_file')},
+          \ 'command':function('dashboard#handler#new_file'),
+          \ 'func_name': 'dashboard#handler#new_file()',
+          \ 'key': '5'},
     \ 'change_colorscheme'   :{
           \ 'description': [s:dashboard_shortcut_icon['change_colorscheme'].'Change colorscheme                    '.s:dashboard_shortcut['change_colorscheme']],
-          \ 'command':function('dashboard#handler#change_colorscheme')},
+          \ 'command':function('dashboard#handler#change_colorscheme'),
+          \ 'func_name': 'dashboard#handler#change_colorscheme()',
+          \ 'key': '0'},
     \ 'quit'                 :{
           \ 'description': [s:dashboard_shortcut_icon['book_marks'].'Quit                                  '.s:dashboard_shortcut['book_marks']],
-          \ 'command':function('dashboard#handler#book_marks')},
+          \ 'command':function('dashboard#handler#book_marks'),
+          \ 'func_name': 'dashboard#handler#book_marks()',
+          \ 'key': 'q'},
     \ 'last_session'         :{
           \ 'description': [s:dashboard_shortcut_icon['last_session'].'Open last session                     '.s:dashboard_shortcut['last_session']],
-          \ 'command':function('dashboard#handler#last_session')},
+          \ 'command':function('dashboard#handler#last_session'),
+          \ 'func_name': 'dashboard#handler#last_session()',
+          \ 'key': '4'},
     \ 'find_file'            :{
           \ 'description': [s:dashboard_shortcut_icon['find_file'].'Find file                             '.s:dashboard_shortcut['find_file']],
-          \ 'command':function('dashboard#handler#find_file')},
+          \ 'command':function('dashboard#handler#find_file'),
+          \ 'func_name': 'dashboard#handler#find_file()',
+          \ 'key': '1'},
     \ }
 endif
 
@@ -82,5 +90,6 @@ function! s:set_section()
     call append('$',dashboard_{key})
     call dashboard#register(line('$'), key, s:Section[key]["command"])
     call append('$', s:empty_lines)
+	execute "nnoremap<buffer><silent> ".s:Section[key]['key']." :call ".s:Section[key]["func_name"]." <cr>"
   endfor
 endfunction
