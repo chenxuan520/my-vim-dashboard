@@ -12,7 +12,7 @@ else
   let s:dashboard_shortcut['find_word'] = '[3]    '
   let s:dashboard_shortcut['last_session'] = '[4]    '
   let s:dashboard_shortcut['new_file'] = '[5]    '
-  let s:dashboard_shortcut['change_colorscheme'] = '[F1]  '
+  let s:dashboard_shortcut['change_config'] = '[0]   '
   let s:dashboard_shortcut['book_marks'] = '[q]    '
 endif
 
@@ -20,7 +20,7 @@ let s:dashboard_shortcut_icon['last_session'] = ' '
 let s:dashboard_shortcut_icon['find_history'] = ' '
 let s:dashboard_shortcut_icon['find_file'] = ' '
 let s:dashboard_shortcut_icon['new_file'] = ' '
-let s:dashboard_shortcut_icon['change_colorscheme'] = ' '
+let s:dashboard_shortcut_icon['change_config'] = ' '
 let s:dashboard_shortcut_icon['find_word'] = ' '
 let s:dashboard_shortcut_icon['book_marks'] = ' '
 
@@ -48,15 +48,15 @@ else
           \ 'command':function('dashboard#handler#new_file'),
           \ 'func_name': 'dashboard#handler#new_file()',
           \ 'key': '5'},
-    \ 'change_colorscheme'   :{
-          \ 'description': [s:dashboard_shortcut_icon['change_colorscheme'].'Change colorscheme                    '.s:dashboard_shortcut['change_colorscheme']],
-          \ 'command':function('dashboard#handler#change_colorscheme'),
-          \ 'func_name': 'dashboard#handler#change_colorscheme()',
+    \ 'change_config'   :{
+          \ 'description': [s:dashboard_shortcut_icon['change_config'].'Open vim config                       '.s:dashboard_shortcut['change_config']],
+          \ 'command':function('dashboard#handler#change_config'),
+          \ 'func_name': 'dashboard#handler#change_config()',
           \ 'key': '0'},
     \ 'quit'                 :{
           \ 'description': [s:dashboard_shortcut_icon['book_marks'].'Quit                                  '.s:dashboard_shortcut['book_marks']],
-          \ 'command':function('dashboard#handler#book_marks'),
-          \ 'func_name': 'dashboard#handler#book_marks()',
+          \ 'command':function('dashboard#handler#quit'),
+          \ 'func_name': 'dashboard#handler#quit()',
           \ 'key': 'q'},
     \ 'last_session'         :{
           \ 'description': [s:dashboard_shortcut_icon['last_session'].'Open last session                     '.s:dashboard_shortcut['last_session']],

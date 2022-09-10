@@ -6,15 +6,15 @@ function! dashboard#leaderf#find_history() abort
 	LeaderfMru
 endfunction
 
-function! dashboard#leaderf#change_colorscheme() abort
-	LeaderfColorscheme
+function! dashboard#leaderf#change_config() abort
+	edit ~/.vimrc
 endfunction
 
 function! dashboard#leaderf#find_word() abort
 	Leaderf rg -i
 endfunction
 
-function! dashboard#leaderf#book_marks() abort
+function! dashboard#leaderf#quit() abort
 	execute ':q'
 endfunction
 

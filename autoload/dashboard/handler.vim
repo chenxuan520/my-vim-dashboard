@@ -18,14 +18,14 @@ function! dashboard#handler#find_history() abort
   call dashboard#{g:dashboard_executive}#find_history()
 endfunction
 
-function! dashboard#handler#change_colorscheme() abort
-  call dashboard#{g:dashboard_executive}#change_colorscheme()
+function! dashboard#handler#change_config() abort
+  call dashboard#{g:dashboard_executive}#change_config()
 endfunction
 
 function! dashboard#handler#find_word() abort
   call dashboard#{g:dashboard_executive}#find_word()
 endfunction
 
-function! dashboard#handler#book_marks() abort
-  call dashboard#{g:dashboard_executive}#book_marks()
+function! dashboard#handler#quit() abort
+  call dashboard#{g:dashboard_executive}#quit()
 endfunction
