@@ -41,8 +41,7 @@ Load a session from |g:dashboard_session_directory|
 >
     :DashboardFindFile
 <
-Search File wraped the vim-clap:`Clap history Clap files ++finder=rg --ignore --hidden --files`
-                       fzf.vim :`Files`
+Search File wraped the with leaderf:LeaderfFile
 
                                                               *dashboard-:DashboardNewFile*
 >
@@ -53,15 +52,13 @@ Open a new buffer
 >
     :DashboardFindHistory
 <
-Search the history File wraped the vim-clap:`Clap history`
-                                    fzf.vim: `History`
+Search the history File wraped the leaderf:`leaderf`
 
                                                               *dashboard-:DashboardChangeColorscheme*
 >
     :DashboardChangeColorscheme
 <
 Search vim colorscheme wraped the vim-clap:`Clap colors`
-                                   fzf.vim:`Colors`
 
                                                               *dashboard-:DashboardFindWord*
 >
