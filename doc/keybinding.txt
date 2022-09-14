@@ -1,52 +1,70 @@
 *keybinding*  The key binding for vim
 *keybinding*
 ==============================================================================
-COMMANDS                                                     *keybinding*
-*key:buffer-next/last:<leader>n/p*
-*key:change-window-size:<ctrl+up/down/left/right*
-*key:color-change:<F1>*
-*key:reload-vimrc:<leader><leader>s*
-*key:plug-install:<leader><leader>i*
-*key:plug-clean:<leader><leader>c*
-*key:copy-system:<leader><leader>y*
-*key:paste-system:<leader><leader>p*
-*key:paste-copy:<leader>p*
-*key:add-comment-user:<leader>c*
-*key:delete-buffer:<leader>d*
-*key:up/down(insert):<ctrl+j/k>*
-*key:right(insert):<ctrl+l>*
-*key:open-term:<leader><leader>t*
-*key:open-term-space:<leader><leader>T*
-*key:open-debug:<leader><leader>d*
-*key:debug-break:F6*
-*key:debug-next:F7*
-*key:debug-step:F8*
-*key:goto-define:<leader>u*
-*key:goto-type-define:<leader>U*
-*key:goto-refence:gr*
-*key:rename:<leader>r*
-*key:enhance-rename:<space>r*
-*key:quick-fix:<leader>ff*
-*key:wrong-list:<space>w*
-*key:code-action:<leader>a*
-*key:format-code:<leader><leader>f/:Format*
-*key:coc-config:<space><space>c*
-*key:coc-list-exten:<space>l*
-*key:find-word:<space>a*
-*key:funtion-list:<leader>t*
-*key:easy-motion:<leader>w*
-*key:easy-motion-f:<leader>f*
-*key:easy-motion-line:<leader>l/k*
-*key:project-config:<space>c*
-*key:file-tree:<leader>n*
-*key:git-file:<leader>g*
-*key:find-word:<leader>A*
-*key:find-word:<leader>H*
-*key:help:<space>h*
-*key:aligen:<leader>T*
-*key:git-all:<leader>G*
-*key:find-file:<leader>F*
-*key:enhance-find-word:<space>a*
-*key:enhance-funtion-list:<space>t*
-*key:comment-code:gcc*
+CONTENTS                                                     *keybinding-contents*
+
+    INTRO .......................................... |keybinding-intro|
+    COMMANDS ....................................... |keybinding-commands|
+
 ==============================================================================
+INTRO                                                           *keybinding-intro*
+
+keybinding is a plugin that shows the key binding
+
+==============================================================================
+COMMANDS                                                     *keybinding-commands*
+
+                                                             *key:buffer-next/last:<leader>n/p*
+                                                             *key:buffrer-delete:<leader>d*
+                                                             *key:change-window-size:<ctrl+up/down/left/right*
+                                                             *key:color-change:<F1>*
+                                                             *key:reload-vimrc:<leader><leader>s*
+                                                             *key:plug-install:<leader><leader>i*
+                                                             *key:plug-clean:<leader><leader>c*
+                                                             *key:copy-system:<leader><leader>y*
+                                                             *key:paste-system:<leader><leader>p*
+                                                             *key:paste-copy:<leader>p*
+                                                             *key:add-comment-user:<leader>c*
+                                                             *key:up/down(insert):<ctrl+j/k>*
+                                                             *key:right(insert):<ctrl+l>*
+                                                             *key:term-inside:<leader><leader>t*
+                                                             *key:term-inside-space:<leader><leader>T*
+                                                             *key:debug-open:<leader><leader>d*
+                                                             *key:debug-break:F6*
+                                                             *key:debug-next:F7*
+                                                             *key:debug-step:F8*
+                                                             *key:coc-goto-define:<leader>u,gu*
+                                                             *key:coc-goto-type-define:<leader>U*
+                                                             *key:coc-goto-refence:gr*
+                                                             *key:coc-rename:<leader>r*
+                                                             *key:coc-refactor:<space>r*
+                                                             *key:coc-fix:<leader>ff*
+                                                             *key:coc-wrong-list:<space>w*
+                                                             *key:coc-wrong-next/last:[w,]w*
+                                                             *key:coc-code-action:<leader>a*
+                                                             *key:coc-format-code:<leader><leader>f/:Format*
+                                                             *key:coc-config:<space><space>c*
+                                                             *key:coc-list-exten:<space>l*
+                                                             *key:leaderf-find-word:<space>a*
+                                                             *key:leaderf-recent-file:<space>F*
+                                                             *key:leaderf-line:<space>/*
+                                                             *key:leaderf-function-list:<leader>t*
+                                                             *key:leaderf-help:<space>h*
+                                                             *key:leaderf-find-file:<leader>F*
+                                                             *key:leaderf-buffer:<space>b*
+                                                             *key:easy-motion:<leader>w*
+                                                             *key:easy-motion-f:<leader>f*
+                                                             *key:easy-motion-line:<leader>l/k*
+                                                             *key:git-file:<leader>g*
+                                                             *key:git-all:<leader>G*
+                                                             *key:async-project-config:<space>c*
+                                                             *key:async-find-word:<leader>A*
+                                                             *key:async-run:<space>;*
+                                                             *key:async-find-current:<leader>H*
+                                                             *key:tabular-aligen:<leader>T*
+                                                             *key:nerdtree-file-tree:<leader>n*
+                                                             *key:comment-code:gcc*
+                                                             *key:quickfix-delete:\q*
+                                                             *key:quickfix-next/last:[q,]q*
+==============================================================================
+vim:tw=78:sw=4:ts=8:ft=help:norl:noet:
