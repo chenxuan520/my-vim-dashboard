@@ -20,7 +20,7 @@ let s:dashboard_shortcut_icon['last_session'] = ' '
 let s:dashboard_shortcut_icon['find_history'] = ' '
 let s:dashboard_shortcut_icon['find_file'] = ' '
 let s:dashboard_shortcut_icon['new_file'] = ' '
-let s:dashboard_shortcut_icon['change_config'] = ' '
+let s:dashboard_shortcut_icon['change_config'] = ' ' " ' '
 let s:dashboard_shortcut_icon['find_word'] = ' '
 let s:dashboard_shortcut_icon['book_marks'] = ' '
 
