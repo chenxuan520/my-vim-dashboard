@@ -5,7 +5,7 @@ let g:airline#themes#tokyonight#palette = {}
 let s:style = get(g:, 'tokyonight_style', 'night')
 
 if s:style ==# 'night'
-	let s:foreground = [ '#a9b1d6', 250 ]
+	let s:foreground = [ '#EEE8AA', 250 ]
 	let s:background = [ '#1a1b26', 235 ]
 	let s:background_alt = [ '#232433', 236 ]
 	let s:background_grey = [ '#444B6A', 238 ]
