@@ -14,9 +14,11 @@ keybinding is a plugin that shows the key binding
 ==============================================================================
 COMMANDS                                                     *keybinding-commands*
 
+                                                             *key:<leader>-bind:,*
                                                              *key:buffer-next/last:<leader>n/p*
-                                                             *key:buffrer-delete:<leader>d*
-                                                             *key:change-window-size:<ctrl+up/down/left/right*
+                                                             *key:buffer-delete:<leader>d*
+                                                             *key:buffer-save:c-m,<cr>*
+                                                             *key:change-window-size:<ctrl+up/down/left/right>*
                                                              *key:color-change:<F1>*
                                                              *key:reload-vimrc:<leader><leader>s*
                                                              *key:plug-install:<leader><leader>i*
@@ -34,12 +36,12 @@ COMMANDS                                                     *keybinding-command
                                                              *key:debug-next:F7*
                                                              *key:debug-step:F8*
                                                              *key:coc-goto-define:<leader>u,gu*
-                                                             *key:coc-goto-type-define:<leader>U*
+                                                             *key:coc-goto-type-define:<leader>U,gU*
                                                              *key:coc-goto-refence:gr*
                                                              *key:coc-rename:<leader>r*
                                                              *key:coc-refactor:<space>r*
                                                              *key:coc-fix:<leader>ff*
-                                                             *key:coc-wrong-list:<space>w*
+                                                             *key:coc-wrong-list:<space>w,=w*
                                                              *key:coc-wrong-next/last:[w,]w*
                                                              *key:coc-code-action:<leader>a*
                                                              *key:coc-format-code:<leader><leader>f/:Format*
@@ -58,13 +60,15 @@ COMMANDS                                                     *keybinding-command
                                                              *key:git-file:<leader>g*
                                                              *key:git-all:<leader>G*
                                                              *key:async-project-config:<space>c*
+                                                             *key:async-project-project:<space>C*
                                                              *key:async-find-word:<leader>A*
                                                              *key:async-run:<space>;*
                                                              *key:async-find-current:<leader>H*
                                                              *key:tabular-aligen:<leader>T*
                                                              *key:nerdtree-file-tree:<leader>n*
                                                              *key:comment-code:gcc*
-                                                             *key:quickfix-delete:\q*
+                                                             *key:quickfix-open/delete:=q,\q*
                                                              *key:quickfix-next/last:[q,]q*
+							     *key:mouse-open/close:=m,\m*
 ==============================================================================
 vim:tw=78:sw=4:ts=8:ft=help:norl:noet:
