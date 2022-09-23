@@ -37,7 +37,7 @@ key:coc-fix:<leader>ff	keybinding.txt	/*key:coc-fix:<leader>ff*
 key:coc-format-code:<leader><leader>f/:Format	keybinding.txt	/*key:coc-format-code:<leader><leader>f\/:Format*
 key:coc-goto-define:<leader>u,gu	keybinding.txt	/*key:coc-goto-define:<leader>u,gu*
 key:coc-goto-refence:gr	keybinding.txt	/*key:coc-goto-refence:gr*
-key:coc-goto-type-define:<leader>U,gU	keybinding.txt	/*key:coc-goto-type-define:<leader>U,gU*
+key:coc-goto-type-define:<leader>U,gU,<c-leftmouse>	keybinding.txt	/*key:coc-goto-type-define:<leader>U,gU,<c-leftmouse>*
 key:coc-list-exten:<space>l	keybinding.txt	/*key:coc-list-exten:<space>l*
 key:coc-refactor:<space>r	keybinding.txt	/*key:coc-refactor:<space>r*
 key:coc-rename:<leader>r	keybinding.txt	/*key:coc-rename:<leader>r*
@@ -53,8 +53,10 @@ key:debug-step:F8	keybinding.txt	/*key:debug-step:F8*
 key:easy-motion-f:<leader>f	keybinding.txt	/*key:easy-motion-f:<leader>f*
 key:easy-motion-line:<leader>l/k	keybinding.txt	/*key:easy-motion-line:<leader>l\/k*
 key:easy-motion:<leader>w	keybinding.txt	/*key:easy-motion:<leader>w*
+key:email-quick(insert):;e<space>	keybinding.txt	/*key:email-quick(insert):;e<space>*
 key:git-all:<leader>G	keybinding.txt	/*key:git-all:<leader>G*
 key:git-file:<leader>g	keybinding.txt	/*key:git-file:<leader>g*
+key:indentline-open/close:=i,\i	keybinding.txt	/*key:indentline-open\/close:=i,\\i*
 key:leaderf-buffer:<space>b	keybinding.txt	/*key:leaderf-buffer:<space>b*
 key:leaderf-find-file:<leader>F	keybinding.txt	/*key:leaderf-find-file:<leader>F*
 key:leaderf-find-word:<space>a	keybinding.txt	/*key:leaderf-find-word:<space>a*
@@ -63,6 +65,7 @@ key:leaderf-help:<space>h	keybinding.txt	/*key:leaderf-help:<space>h*
 key:leaderf-line:<space>/	keybinding.txt	/*key:leaderf-line:<space>\/*
 key:leaderf-recent-file:<space>F	keybinding.txt	/*key:leaderf-recent-file:<space>F*
 key:mouse-open/close:=m,\m	keybinding.txt	/*key:mouse-open\/close:=m,\\m*
+key:name-quick(insert):;n<space>	keybinding.txt	/*key:name-quick(insert):;n<space>*
 key:nerdtree-file-tree:<leader>n	keybinding.txt	/*key:nerdtree-file-tree:<leader>n*
 key:paste-copy:<leader>p	keybinding.txt	/*key:paste-copy:<leader>p*
 key:paste-system:<leader><leader>p	keybinding.txt	/*key:paste-system:<leader><leader>p*
@@ -72,6 +75,7 @@ key:quickfix-next/last:[q,]q	keybinding.txt	/*key:quickfix-next\/last:[q,]q*
 key:quickfix-open/delete:=q,\q	keybinding.txt	/*key:quickfix-open\/delete:=q,\\q*
 key:reload-vimrc:<leader><leader>s	keybinding.txt	/*key:reload-vimrc:<leader><leader>s*
 key:right(insert):<ctrl+l>	keybinding.txt	/*key:right(insert):<ctrl+l>*
+key:spell-open/close:=s,\s	keybinding.txt	/*key:spell-open\/close:=s,\\s*
 key:tabular-aligen:<leader>T	keybinding.txt	/*key:tabular-aligen:<leader>T*
 key:term-inside-space:<leader><leader>T	keybinding.txt	/*key:term-inside-space:<leader><leader>T*
 key:term-inside:<leader><leader>t	keybinding.txt	/*key:term-inside:<leader><leader>t*

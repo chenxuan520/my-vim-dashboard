@@ -36,7 +36,7 @@ COMMANDS                                                     *keybinding-command
                                                              *key:debug-next:F7*
                                                              *key:debug-step:F8*
                                                              *key:coc-goto-define:<leader>u,gu*
-                                                             *key:coc-goto-type-define:<leader>U,gU*
+                                                             *key:coc-goto-type-define:<leader>U,gU,<c-leftmouse>*
                                                              *key:coc-goto-refence:gr*
                                                              *key:coc-rename:<leader>r*
                                                              *key:coc-refactor:<space>r*
@@ -70,5 +70,9 @@ COMMANDS                                                     *keybinding-command
                                                              *key:quickfix-open/delete:=q,\q*
                                                              *key:quickfix-next/last:[q,]q*
 							     *key:mouse-open/close:=m,\m*
+                                                             *key:spell-open/close:=s,\s*
+							     *key:indentline-open/close:=i,\i*
+							     *key:name-quick(insert):;n<space>*
+							     *key:email-quick(insert):;e<space>*
 ==============================================================================
 vim:tw=78:sw=4:ts=8:ft=help:norl:noet:

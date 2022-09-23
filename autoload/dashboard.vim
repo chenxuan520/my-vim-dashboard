@@ -142,6 +142,7 @@ endfunction
 " Function: s:set_mappings {{{1
 function! s:set_mappings()
   nnoremap <buffer><nowait><silent> <cr>      :call <sid>call_line_function()<CR>
+  nnoremap <buffer><silent><2-LeftMouse>      :call <sid>call_line_function()<CR>
 endfunction
 
 function! s:call_line_function()
