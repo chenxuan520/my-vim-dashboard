@@ -12,7 +12,7 @@ endif
 let s:home_dir = getenv('HOME')
 
 " Options
-let g:dashboard_auto_delete_session = get(g:,'dashboard_auto_delete_session',1)
+let g:dashboard_auto_delete_session = get(g:,'dashboard_auto_delete_session',0)
 let g:dashboard_executive = get(g:,'dashboard_default_executive','leaderf')
 let g:dashboard_fzf_window =get(g:,'dashboard_fzf_window',1)
 let g:dashboard_fzf_engine = get(g:,'dashboard_fzf_engine','rg')
