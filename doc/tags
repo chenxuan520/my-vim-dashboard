@@ -30,7 +30,6 @@ key:async-run:<space>;	keybinding.txt	/*key:async-run:<space>;*
 key:buffer-delete:<leader>d	keybinding.txt	/*key:buffer-delete:<leader>d*
 key:buffer-next/last:<leader>n/p	keybinding.txt	/*key:buffer-next\/last:<leader>n\/p*
 key:buffer-save:c-m,<cr>	keybinding.txt	/*key:buffer-save:c-m,<cr>*
-key:change-window-size:<ctrl+up/down/left/right>	keybinding.txt	/*key:change-window-size:<ctrl+up\/down\/left\/right>*
 key:coc-code-action:<leader>a	keybinding.txt	/*key:coc-code-action:<leader>a*
 key:coc-config:<space><space>c	keybinding.txt	/*key:coc-config:<space><space>c*
 key:coc-fix:<leader>ff	keybinding.txt	/*key:coc-fix:<leader>ff*
@@ -50,6 +49,7 @@ key:debug-break:F6	keybinding.txt	/*key:debug-break:F6*
 key:debug-next:F7	keybinding.txt	/*key:debug-next:F7*
 key:debug-open:<leader><leader>d	keybinding.txt	/*key:debug-open:<leader><leader>d*
 key:debug-step:F8	keybinding.txt	/*key:debug-step:F8*
+key:delete-space-endline:d<space>	keybinding.txt	/*key:delete-space-endline:d<space>*
 key:easy-motion-f:<leader>f	keybinding.txt	/*key:easy-motion-f:<leader>f*
 key:easy-motion-line:<leader>l/k	keybinding.txt	/*key:easy-motion-line:<leader>l\/k*
 key:easy-motion:<leader>w	keybinding.txt	/*key:easy-motion:<leader>w*
@@ -80,6 +80,9 @@ key:tabular-aligen:<leader>T	keybinding.txt	/*key:tabular-aligen:<leader>T*
 key:term-inside-space:<leader><leader>T	keybinding.txt	/*key:term-inside-space:<leader><leader>T*
 key:term-inside:<leader><leader>t	keybinding.txt	/*key:term-inside:<leader><leader>t*
 key:up/down(insert):<ctrl+j/k>	keybinding.txt	/*key:up\/down(insert):<ctrl+j\/k>*
+key:window-cursor-change:<shift+up/down/left/right>	keybinding.txt	/*key:window-cursor-change:<shift+up\/down\/left\/right>*
+key:window-location-change:<ctrl+shift+up/down/left/right>	keybinding.txt	/*key:window-location-change:<ctrl+shift+up\/down\/left\/right>*
+key:window-size-change:<ctrl+up/down/left/right>	keybinding.txt	/*key:window-size-change:<ctrl+up\/down\/left\/right>*
 keybinding	keybinding.txt	/*keybinding*
 keybinding	keybinding.txt	/*keybinding*
 keybinding-commands	keybinding.txt	/*keybinding-commands*

@@ -18,7 +18,9 @@ COMMANDS                                                     *keybinding-command
                                                              *key:buffer-next/last:<leader>n/p*
                                                              *key:buffer-delete:<leader>d*
                                                              *key:buffer-save:c-m,<cr>*
-                                                             *key:change-window-size:<ctrl+up/down/left/right>*
+                                                             *key:window-size-change:<ctrl+up/down/left/right>*
+                                                             *key:window-cursor-change:<shift+up/down/left/right>*
+                                                             *key:window-location-change:<ctrl+shift+up/down/left/right>*
                                                              *key:color-change:<F1>*
                                                              *key:reload-vimrc:<leader><leader>s*
                                                              *key:plug-install:<leader><leader>i*
@@ -72,6 +74,7 @@ COMMANDS                                                     *keybinding-command
 							     *key:mouse-open/close:=m,\m*
                                                              *key:spell-open/close:=s,\s*
 							     *key:indentline-open/close:=i,\i*
+							     *key:delete-space-endline:d<space>*
 							     *key:name-quick(insert):;n<space>*
 							     *key:email-quick(insert):;e<space>*
 ==============================================================================
