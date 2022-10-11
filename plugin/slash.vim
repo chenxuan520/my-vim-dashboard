@@ -35,6 +35,14 @@ function! s:immobile(seq)
   return a:seq."\<plug>(slash-prev)"
 endfunction
 
+function! s:vsearch(cmdtype)
+	set hlsearch
+	let temp = @s
+	norm! gv"sy
+	let @/ = '\V' . substitute(escape(@s, a:cmdtype.'\'), '\n', '\\n', 'g')
+	let @s = temp
+endfunction
+
 function! s:trailer()
   augroup slash
     autocmd!
@@ -112,5 +120,7 @@ noremap!        <plug>(slash-nop)     <nop>
 
 map  <expr> n    <sid>wrap('n')
 map  <expr> N    <sid>wrap('N')
-map  <expr> *    <sid>wrap(<sid>immobile('*'))
-map  <expr> #    <sid>wrap(<sid>immobile('#'))
+nmap  <expr> *    <sid>wrap(<sid>immobile('*'))
+nmap  <expr> #    <sid>wrap(<sid>immobile('#'))
+xnoremap * :<C-u>call <SID>vsearch('/')<CR>/<C-R>=@/<CR><CR>N
+xnoremap # :<C-u>call <SID>vsearch('?')<CR>?<C-R>=@/<CR><CR>N
