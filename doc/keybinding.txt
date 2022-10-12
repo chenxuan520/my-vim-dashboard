@@ -33,7 +33,7 @@ COMMANDS                                                     *keybinding-command
                                                              *key:right(insert):<ctrl+l>*
                                                              *key:term-inside:<leader><leader>t*
                                                              *key:term-inside-space:<leader><leader>T*
-                                                             *key:debug-open:<leader><leader>d*
+                                                             *key:debug-open:<leader><leader>d,F5*
                                                              *key:debug-break:F6*
                                                              *key:debug-next:F7*
                                                              *key:debug-step:F8*
@@ -50,10 +50,13 @@ COMMANDS                                                     *keybinding-command
                                                              *key:coc-config:<space><space>c*
                                                              *key:coc-list-exten:<space>l*
                                                              *key:leaderf-find-word:<space>a*
+                                                             *key:leaderf-find-select-word:<space>a*
+                                                             *key:leaderf-find-current-word:<space>A*
                                                              *key:leaderf-recent-file:<space>F*
                                                              *key:leaderf-line:<space>/*
                                                              *key:leaderf-function-list:<leader>t*
                                                              *key:leaderf-help:<space>h*
+                                                             *key:leaderf-help-key:<space>H*
                                                              *key:leaderf-find-file:<leader>F*
                                                              *key:leaderf-buffer:<space>b*
                                                              *key:easy-motion:<leader>w*

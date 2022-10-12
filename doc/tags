@@ -47,7 +47,7 @@ key:comment-code:gcc	keybinding.txt	/*key:comment-code:gcc*
 key:copy-system:<leader><leader>y	keybinding.txt	/*key:copy-system:<leader><leader>y*
 key:debug-break:F6	keybinding.txt	/*key:debug-break:F6*
 key:debug-next:F7	keybinding.txt	/*key:debug-next:F7*
-key:debug-open:<leader><leader>d	keybinding.txt	/*key:debug-open:<leader><leader>d*
+key:debug-open:<leader><leader>d,F5	keybinding.txt	/*key:debug-open:<leader><leader>d,F5*
 key:debug-step:F8	keybinding.txt	/*key:debug-step:F8*
 key:delete-space-endline:d<space>	keybinding.txt	/*key:delete-space-endline:d<space>*
 key:easy-motion-f:<leader>f	keybinding.txt	/*key:easy-motion-f:<leader>f*
@@ -58,9 +58,12 @@ key:git-all:<leader>G	keybinding.txt	/*key:git-all:<leader>G*
 key:git-file:<leader>g	keybinding.txt	/*key:git-file:<leader>g*
 key:indentline-open/close:=i,\i	keybinding.txt	/*key:indentline-open\/close:=i,\\i*
 key:leaderf-buffer:<space>b	keybinding.txt	/*key:leaderf-buffer:<space>b*
+key:leaderf-find-current-word:<space>A	keybinding.txt	/*key:leaderf-find-current-word:<space>A*
 key:leaderf-find-file:<leader>F	keybinding.txt	/*key:leaderf-find-file:<leader>F*
+key:leaderf-find-select-word:<space>a	keybinding.txt	/*key:leaderf-find-select-word:<space>a*
 key:leaderf-find-word:<space>a	keybinding.txt	/*key:leaderf-find-word:<space>a*
 key:leaderf-function-list:<leader>t	keybinding.txt	/*key:leaderf-function-list:<leader>t*
+key:leaderf-help-key:<space>H	keybinding.txt	/*key:leaderf-help-key:<space>H*
 key:leaderf-help:<space>h	keybinding.txt	/*key:leaderf-help:<space>h*
 key:leaderf-line:<space>/	keybinding.txt	/*key:leaderf-line:<space>\/*
 key:leaderf-recent-file:<space>F	keybinding.txt	/*key:leaderf-recent-file:<space>F*
