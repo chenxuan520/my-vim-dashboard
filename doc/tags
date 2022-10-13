@@ -22,7 +22,6 @@ g:dashboard_custom_shortcut	dashboard.txt	/*g:dashboard_custom_shortcut*
 g:dashboard_session_directory	dashboard.txt	/*g:dashboard_session_directory*
 key:<leader>-bind:,	keybinding.txt	/*key:<leader>-bind:,*
 key:add-comment-user:<leader>c	keybinding.txt	/*key:add-comment-user:<leader>c*
-key:async-find-current:<leader>H	keybinding.txt	/*key:async-find-current:<leader>H*
 key:async-find-word:<leader>A	keybinding.txt	/*key:async-find-word:<leader>A*
 key:async-project-config:<space>c	keybinding.txt	/*key:async-project-config:<space>c*
 key:async-project-project:<space>C	keybinding.txt	/*key:async-project-project:<space>C*
@@ -58,6 +57,7 @@ key:git-all:<leader>G	keybinding.txt	/*key:git-all:<leader>G*
 key:git-file:<leader>g	keybinding.txt	/*key:git-file:<leader>g*
 key:indentline-open/close:=i,\i	keybinding.txt	/*key:indentline-open\/close:=i,\\i*
 key:leaderf-buffer:<space>b	keybinding.txt	/*key:leaderf-buffer:<space>b*
+key:leaderf-dir-root-open/close:=l,\l	keybinding.txt	/*key:leaderf-dir-root-open\/close:=l,\\l*
 key:leaderf-find-current-word:<space>A	keybinding.txt	/*key:leaderf-find-current-word:<space>A*
 key:leaderf-find-file:<leader>F	keybinding.txt	/*key:leaderf-find-file:<leader>F*
 key:leaderf-find-select-word:<space>a	keybinding.txt	/*key:leaderf-find-select-word:<space>a*

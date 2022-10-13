@@ -15,70 +15,136 @@ keybinding is a plugin that shows the key binding
 COMMANDS                                                     *keybinding-commands*
 
                                                              *key:<leader>-bind:,*
+leadef key if ','
                                                              *key:buffer-next/last:<leader>n/p*
+change buffer
                                                              *key:buffer-delete:<leader>d*
+delete now buffer
                                                              *key:buffer-save:c-m,<cr>*
+buffer save
                                                              *key:window-size-change:<ctrl+up/down/left/right>*
+修改窗口大小
                                                              *key:window-cursor-change:<shift+up/down/left/right>*
+修改光标所在窗口
                                                              *key:window-location-change:<ctrl+shift+up/down/left/right>*
+修改窗口布局
                                                              *key:color-change:<F1>*
+修改VIM主题
                                                              *key:reload-vimrc:<leader><leader>s*
+重新加载.vimrc
                                                              *key:plug-install:<leader><leader>i*
+插件安装
                                                              *key:plug-clean:<leader><leader>c*
+清理无用插件
                                                              *key:copy-system:<leader><leader>y*
+复制到系统粘贴板
                                                              *key:paste-system:<leader><leader>p*
+从系统粘贴板粘贴
                                                              *key:paste-copy:<leader>p*
+粘贴复制内容
                                                              *key:add-comment-user:<leader>c*
+添加作者信息注释
                                                              *key:up/down(insert):<ctrl+j/k>*
+插入模式光标移动
                                                              *key:right(insert):<ctrl+l>*
+插入模式光标移动
                                                              *key:term-inside:<leader><leader>t*
+垂直控制台
                                                              *key:term-inside-space:<leader><leader>T*
+水平控制台
                                                              *key:debug-open:<leader><leader>d,F5*
+打开调试
                                                              *key:debug-break:F6*
+设置断点
                                                              *key:debug-next:F7*
+调试下一步
                                                              *key:debug-step:F8*
+调试进入
                                                              *key:coc-goto-define:<leader>u,gu*
+去到定义
                                                              *key:coc-goto-type-define:<leader>U,gU,<c-leftmouse>*
+去到类型定义
                                                              *key:coc-goto-refence:gr*
+引用列表
                                                              *key:coc-rename:<leader>r*
+重命名
                                                              *key:coc-refactor:<space>r*
+高级重命名
                                                              *key:coc-fix:<leader>ff*
+快速修复
                                                              *key:coc-wrong-list:<space>w,=w*
+错误列表
                                                              *key:coc-wrong-next/last:[w,]w*
+上/下一个错误
                                                              *key:coc-code-action:<leader>a*
+lsp的action
                                                              *key:coc-format-code:<leader><leader>f/:Format*
+格式化代码
                                                              *key:coc-config:<space><space>c*
+coc配置
                                                              *key:coc-list-exten:<space>l*
+coc安装插件列表
                                                              *key:leaderf-find-word:<space>a*
+查找单词
                                                              *key:leaderf-find-select-word:<space>a*
+查找选中单词
                                                              *key:leaderf-find-current-word:<space>A*
+查找光标单词
                                                              *key:leaderf-recent-file:<space>F*
+查找最近文件
                                                              *key:leaderf-line:<space>/*
+在当前buffer查找
                                                              *key:leaderf-function-list:<leader>t*
+查找当前buffer函数
                                                              *key:leaderf-help:<space>h*
+查找帮助
                                                              *key:leaderf-help-key:<space>H*
+查找快捷键帮助
                                                              *key:leaderf-find-file:<leader>F*
+查找文件
                                                              *key:leaderf-buffer:<space>b*
+查找buffer
+                                                             *key:leaderf-dir-root-open/close:=l,\l*
+开启leaderf
                                                              *key:easy-motion:<leader>w*
+快速移动光标(按单词)
                                                              *key:easy-motion-f:<leader>f*
+快速移动光标(按字母)
                                                              *key:easy-motion-line:<leader>l/k*
+快速移动光标(按行)
                                                              *key:git-file:<leader>g*
+当前文件commit图
                                                              *key:git-all:<leader>G*
+仓库commit图
                                                              *key:async-project-config:<space>c*
+项目配置文件打开
                                                              *key:async-project-project:<space>C*
+项目运行
                                                              *key:async-find-word:<leader>A*
+ack搜索单词
                                                              *key:async-run:<space>;*
-                                                             *key:async-find-current:<leader>H*
+异步命令
                                                              *key:tabular-aligen:<leader>T*
+文本对齐
                                                              *key:nerdtree-file-tree:<leader>n*
+文件目录打开
                                                              *key:comment-code:gcc*
+快速注释
                                                              *key:quickfix-open/delete:=q,\q*
+quickfix打开/关闭
                                                              *key:quickfix-next/last:[q,]q*
-							     *key:mouse-open/close:=m,\m*
+quickfix跳转
+                                                             *key:mouse-open/close:=m,\m*
+鼠标打开/关闭
                                                              *key:spell-open/close:=s,\s*
-							     *key:indentline-open/close:=i,\i*
-							     *key:delete-space-endline:d<space>*
-							     *key:name-quick(insert):;n<space>*
-							     *key:email-quick(insert):;e<space>*
+拼写检查打开/关闭
+                                                             *key:indentline-open/close:=i,\i*
+缩进线打开/关闭
+                                                             *key:delete-space-endline:d<space>*
+删除行尾空格
+                                                             *key:name-quick(insert):;n<space>*
+姓名快速输入
+                                                             *key:email-quick(insert):;e<space>*
+邮箱快速输入
 ==============================================================================
 vim:tw=78:sw=4:ts=8:ft=help:norl:noet:
