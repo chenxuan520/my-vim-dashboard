@@ -78,6 +78,8 @@ buffer save
 上/下一个错误
                                                              *key:coc-code-action:<leader>a*
 lsp的action
+                                                             *key:coc-help-current:K*
+当前光标的help
                                                              *key:coc-format-code:<leader><leader>f/:Format*
 格式化代码
                                                              *key:coc-config:<space><space>c*
@@ -100,7 +102,7 @@ coc安装插件列表
 查找帮助
                                                              *key:leaderf-help-key:<space>H*
 查找快捷键帮助
-                                                             *key:leaderf-find-file:<leader>F*
+                                                             *key:leaderf-find-file:<space>f*
 查找文件
                                                              *key:leaderf-buffer:<space>b*
 查找buffer

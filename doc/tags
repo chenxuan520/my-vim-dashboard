@@ -36,6 +36,7 @@ key:coc-format-code:<leader><leader>f/:Format	keybinding.txt	/*key:coc-format-co
 key:coc-goto-define:<leader>u,gu	keybinding.txt	/*key:coc-goto-define:<leader>u,gu*
 key:coc-goto-refence:gr	keybinding.txt	/*key:coc-goto-refence:gr*
 key:coc-goto-type-define:<leader>U,gU,<c-leftmouse>	keybinding.txt	/*key:coc-goto-type-define:<leader>U,gU,<c-leftmouse>*
+key:coc-help-current:K	keybinding.txt	/*key:coc-help-current:K*
 key:coc-list-exten:<space>l	keybinding.txt	/*key:coc-list-exten:<space>l*
 key:coc-refactor:<space>r	keybinding.txt	/*key:coc-refactor:<space>r*
 key:coc-rename:<leader>r	keybinding.txt	/*key:coc-rename:<leader>r*
@@ -59,7 +60,7 @@ key:indentline-open/close:=i,\i	keybinding.txt	/*key:indentline-open\/close:=i,\
 key:leaderf-buffer:<space>b	keybinding.txt	/*key:leaderf-buffer:<space>b*
 key:leaderf-dir-root-open/close:=l,\l	keybinding.txt	/*key:leaderf-dir-root-open\/close:=l,\\l*
 key:leaderf-find-current-word:<space>A	keybinding.txt	/*key:leaderf-find-current-word:<space>A*
-key:leaderf-find-file:<leader>F	keybinding.txt	/*key:leaderf-find-file:<leader>F*
+key:leaderf-find-file:<space>f	keybinding.txt	/*key:leaderf-find-file:<space>f*
 key:leaderf-find-select-word:<space>a	keybinding.txt	/*key:leaderf-find-select-word:<space>a*
 key:leaderf-find-word:<space>a	keybinding.txt	/*key:leaderf-find-word:<space>a*
 key:leaderf-function-list:<leader>t	keybinding.txt	/*key:leaderf-function-list:<leader>t*
