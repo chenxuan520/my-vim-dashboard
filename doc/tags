@@ -20,6 +20,7 @@ g:dashboard_custom_header	dashboard.txt	/*g:dashboard_custom_header*
 g:dashboard_custom_section	dashboard.txt	/*g:dashboard_custom_section*
 g:dashboard_custom_shortcut	dashboard.txt	/*g:dashboard_custom_shortcut*
 g:dashboard_session_directory	dashboard.txt	/*g:dashboard_session_directory*
+g:slash_auto_middle	slash.txt	/*g:slash_auto_middle*
 key:<leader>-bind:,	keybinding.txt	/*key:<leader>-bind:,*
 key:add-comment-user:<leader>c	keybinding.txt	/*key:add-comment-user:<leader>c*
 key:async-find-word:<leader>A	keybinding.txt	/*key:async-find-word:<leader>A*
@@ -56,6 +57,7 @@ key:easy-motion:<leader>w	keybinding.txt	/*key:easy-motion:<leader>w*
 key:email-quick(insert):;e<space>	keybinding.txt	/*key:email-quick(insert):;e<space>*
 key:git-all:<leader>G	keybinding.txt	/*key:git-all:<leader>G*
 key:git-file:<leader>g	keybinding.txt	/*key:git-file:<leader>g*
+key:indent-buffer:=e	keybinding.txt	/*key:indent-buffer:=e*
 key:indentline-open/close:=i,\i	keybinding.txt	/*key:indentline-open\/close:=i,\\i*
 key:leaderf-buffer:<space>b	keybinding.txt	/*key:leaderf-buffer:<space>b*
 key:leaderf-dir-root-open/close:=l,\l	keybinding.txt	/*key:leaderf-dir-root-open\/close:=l,\\l*
@@ -92,3 +94,7 @@ keybinding	keybinding.txt	/*keybinding*
 keybinding-commands	keybinding.txt	/*keybinding-commands*
 keybinding-contents	keybinding.txt	/*keybinding-contents*
 keybinding-intro	keybinding.txt	/*keybinding-intro*
+slash	slash.txt	/*slash*
+slash	slash.txt	/*slash*
+slash-contents	slash.txt	/*slash-contents*
+slash-options	slash.txt	/*slash-options*

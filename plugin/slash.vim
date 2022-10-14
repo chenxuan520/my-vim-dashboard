@@ -20,13 +20,20 @@
 " OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 " THE SOFTWARE.
 
+" options
+let g:slash_auto_middle=get(g:,'slash_auto_middle',1)
+
 function! s:wrap(seq)
   if mode() == 'c' && stridx('/?', getcmdtype()) < 0
     return a:seq
   endif
   silent! autocmd! slash
   set hlsearch
-  return a:seq."\<plug>(slash-trailer)"
+  if g:slash_auto_middle==1
+	  return a:seq."zz"."\<plug>(slash-trailer)"
+  else
+	  return a:seq."\<plug>(slash-trailer)"
+  endif
 endfunction
 
 function! s:immobile(seq)

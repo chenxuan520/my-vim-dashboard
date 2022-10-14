@@ -148,5 +148,7 @@ quickfix跳转
 姓名快速输入
                                                              *key:email-quick(insert):;e<space>*
 邮箱快速输入
+                                                             *key:indent-buffer:=e*
+整个buffer缩进
 ==============================================================================
 vim:tw=78:sw=4:ts=8:ft=help:norl:noet:

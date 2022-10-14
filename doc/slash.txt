@@ -1,0 +1,21 @@
+*slash*  slash options for vim
+*slash*
+==============================================================================
+CONTENTS                                                     *slash-contents*
+    OPTIONS ........................................ |slash-options|
+==============================================================================
+
+OPTIONS                                                       *slash-options*
+
+Put these variables into your vimrc. The shown assignments are also the
+default values.
+
+    Most used options:~
+    |g:slash_auto_middle|
+
+------------------------------------------------------------------------------
+                                                      *g:slash_auto_middle*
+if auto set cursor to middle when n/N is pressed
+default is 1(true),can be other(false)
+==============================================================================
+vim:tw=78:sw=4:ts=8:ft=help:norl:noet:
