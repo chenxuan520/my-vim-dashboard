@@ -24,8 +24,6 @@ g:slash_auto_middle	slash.txt	/*g:slash_auto_middle*
 key:<leader>-bind:,	keybinding.txt	/*key:<leader>-bind:,*
 key:add-comment-user:<leader>c	keybinding.txt	/*key:add-comment-user:<leader>c*
 key:async-find-word:<leader>A	keybinding.txt	/*key:async-find-word:<leader>A*
-key:async-project-config:<space>c	keybinding.txt	/*key:async-project-config:<space>c*
-key:async-project-project:<space>C	keybinding.txt	/*key:async-project-project:<space>C*
 key:async-run:<space>;	keybinding.txt	/*key:async-run:<space>;*
 key:buffer-delete:<leader>d	keybinding.txt	/*key:buffer-delete:<leader>d*
 key:buffer-next/last:<leader>n/p	keybinding.txt	/*key:buffer-next\/last:<leader>n\/p*
@@ -34,9 +32,9 @@ key:coc-code-action:<leader>a	keybinding.txt	/*key:coc-code-action:<leader>a*
 key:coc-config:<space><space>c	keybinding.txt	/*key:coc-config:<space><space>c*
 key:coc-fix:<leader>ff	keybinding.txt	/*key:coc-fix:<leader>ff*
 key:coc-format-code:<leader><leader>f/:Format	keybinding.txt	/*key:coc-format-code:<leader><leader>f\/:Format*
-key:coc-goto-define:<leader>u,gu	keybinding.txt	/*key:coc-goto-define:<leader>u,gu*
+key:coc-goto-define:<leader>u,gD	keybinding.txt	/*key:coc-goto-define:<leader>u,gD*
 key:coc-goto-refence:gr	keybinding.txt	/*key:coc-goto-refence:gr*
-key:coc-goto-type-define:<leader>U,gU,<c-leftmouse>	keybinding.txt	/*key:coc-goto-type-define:<leader>U,gU,<c-leftmouse>*
+key:coc-goto-type-define:<leader>U,gD,<c-leftmouse>	keybinding.txt	/*key:coc-goto-type-define:<leader>U,gD,<c-leftmouse>*
 key:coc-help-current:K	keybinding.txt	/*key:coc-help-current:K*
 key:coc-list-exten:<space>l	keybinding.txt	/*key:coc-list-exten:<space>l*
 key:coc-refactor:<space>r	keybinding.txt	/*key:coc-refactor:<space>r*
@@ -65,6 +63,7 @@ key:leaderf-find-current-word:<space>A	keybinding.txt	/*key:leaderf-find-current
 key:leaderf-find-file:<space>f	keybinding.txt	/*key:leaderf-find-file:<space>f*
 key:leaderf-find-select-word:<space>a	keybinding.txt	/*key:leaderf-find-select-word:<space>a*
 key:leaderf-find-word:<space>a	keybinding.txt	/*key:leaderf-find-word:<space>a*
+key:leaderf-function-list-all:<leader>T	keybinding.txt	/*key:leaderf-function-list-all:<leader>T*
 key:leaderf-function-list:<leader>t	keybinding.txt	/*key:leaderf-function-list:<leader>t*
 key:leaderf-help-key:<space>H	keybinding.txt	/*key:leaderf-help-key:<space>H*
 key:leaderf-help:<space>h	keybinding.txt	/*key:leaderf-help:<space>h*
@@ -85,8 +84,10 @@ key:spell-open/close:=s,\s	keybinding.txt	/*key:spell-open\/close:=s,\\s*
 key:tabular-aligen:<leader>T	keybinding.txt	/*key:tabular-aligen:<leader>T*
 key:term-inside-space:<leader><leader>T	keybinding.txt	/*key:term-inside-space:<leader><leader>T*
 key:term-inside:<leader><leader>t	keybinding.txt	/*key:term-inside:<leader><leader>t*
+key:termtask-project-config:<space>c	keybinding.txt	/*key:termtask-project-config:<space>c*
+key:termtask-project-project:<space>C	keybinding.txt	/*key:termtask-project-project:<space>C*
 key:up/down(insert):<ctrl+j/k>	keybinding.txt	/*key:up\/down(insert):<ctrl+j\/k>*
-key:window-cursor-change:<shift+up/down/left/right>	keybinding.txt	/*key:window-cursor-change:<shift+up\/down\/left\/right>*
+key:window-cursor-change:<ctrl+h/j/k/l>	keybinding.txt	/*key:window-cursor-change:<ctrl+h\/j\/k\/l>*
 key:window-location-change:<ctrl+shift+up/down/left/right>	keybinding.txt	/*key:window-location-change:<ctrl+shift+up\/down\/left\/right>*
 key:window-size-change:<ctrl+up/down/left/right>	keybinding.txt	/*key:window-size-change:<ctrl+up\/down\/left\/right>*
 keybinding	keybinding.txt	/*keybinding*

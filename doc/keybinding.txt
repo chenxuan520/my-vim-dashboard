@@ -24,7 +24,7 @@ delete now buffer
 buffer save
                                                              *key:window-size-change:<ctrl+up/down/left/right>*
 修改窗口大小
-                                                             *key:window-cursor-change:<shift+up/down/left/right>*
+                                                             *key:window-cursor-change:<ctrl+h/j/k/l>*
 修改光标所在窗口
                                                              *key:window-location-change:<ctrl+shift+up/down/left/right>*
 修改窗口布局
@@ -60,9 +60,9 @@ buffer save
 调试下一步
                                                              *key:debug-step:F8*
 调试进入
-                                                             *key:coc-goto-define:<leader>u,gu*
+                                                             *key:coc-goto-define:<leader>u,gD*
 去到定义
-                                                             *key:coc-goto-type-define:<leader>U,gU,<c-leftmouse>*
+                                                             *key:coc-goto-type-define:<leader>U,gD,<c-leftmouse>*
 去到类型定义
                                                              *key:coc-goto-refence:gr*
 引用列表
@@ -98,6 +98,8 @@ coc安装插件列表
 在当前buffer查找
                                                              *key:leaderf-function-list:<leader>t*
 查找当前buffer函数
+                                                             *key:leaderf-function-list-all:<leader>T*
+查找所有buffer函数
                                                              *key:leaderf-help:<space>h*
 查找帮助
                                                              *key:leaderf-help-key:<space>H*
@@ -118,9 +120,9 @@ coc安装插件列表
 当前文件commit图
                                                              *key:git-all:<leader>G*
 仓库commit图
-                                                             *key:async-project-config:<space>c*
+                                                             *key:termtask-project-config:<space>c*
 项目配置文件打开
-                                                             *key:async-project-project:<space>C*
+                                                             *key:termtask-project-project:<space>C*
 项目运行
                                                              *key:async-find-word:<leader>A*
 ack搜索单词
