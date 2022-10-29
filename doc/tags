@@ -32,11 +32,11 @@ key:coc-code-action:<leader>a	keybinding.txt	/*key:coc-code-action:<leader>a*
 key:coc-config:<space><space>c	keybinding.txt	/*key:coc-config:<space><space>c*
 key:coc-fix:<leader>ff	keybinding.txt	/*key:coc-fix:<leader>ff*
 key:coc-format-code:<leader><leader>f/:Format	keybinding.txt	/*key:coc-format-code:<leader><leader>f\/:Format*
-key:coc-goto-define:<leader>u,gD	keybinding.txt	/*key:coc-goto-define:<leader>u,gD*
+key:coc-goto-define:<leader>u,gd	keybinding.txt	/*key:coc-goto-define:<leader>u,gd*
 key:coc-goto-refence:gr	keybinding.txt	/*key:coc-goto-refence:gr*
 key:coc-goto-type-define:<leader>U,gD,<c-leftmouse>	keybinding.txt	/*key:coc-goto-type-define:<leader>U,gD,<c-leftmouse>*
 key:coc-help-current:K	keybinding.txt	/*key:coc-help-current:K*
-key:coc-list-exten:<space>l	keybinding.txt	/*key:coc-list-exten:<space>l*
+key:coc-list-exten:<space><space>l	keybinding.txt	/*key:coc-list-exten:<space><space>l*
 key:coc-refactor:<space>r	keybinding.txt	/*key:coc-refactor:<space>r*
 key:coc-rename:<leader>r	keybinding.txt	/*key:coc-rename:<leader>r*
 key:coc-wrong-list:<space>w,=w	keybinding.txt	/*key:coc-wrong-list:<space>w,=w*
@@ -55,6 +55,7 @@ key:easy-motion:<leader>w	keybinding.txt	/*key:easy-motion:<leader>w*
 key:email-quick(insert):;e<space>	keybinding.txt	/*key:email-quick(insert):;e<space>*
 key:git-all:<leader>G	keybinding.txt	/*key:git-all:<leader>G*
 key:git-file:<leader>g	keybinding.txt	/*key:git-file:<leader>g*
+key:indent-buffer:<leader>e	keybinding.txt	/*key:indent-buffer:<leader>e*
 key:indent-buffer:=e	keybinding.txt	/*key:indent-buffer:=e*
 key:indentline-open/close:=i,\i	keybinding.txt	/*key:indentline-open\/close:=i,\\i*
 key:leaderf-buffer:<space>b	keybinding.txt	/*key:leaderf-buffer:<space>b*
@@ -67,6 +68,7 @@ key:leaderf-function-list-all:<leader>T	keybinding.txt	/*key:leaderf-function-li
 key:leaderf-function-list:<leader>t	keybinding.txt	/*key:leaderf-function-list:<leader>t*
 key:leaderf-help-key:<space>H	keybinding.txt	/*key:leaderf-help-key:<space>H*
 key:leaderf-help:<space>h	keybinding.txt	/*key:leaderf-help:<space>h*
+key:leaderf-last:<space>l	keybinding.txt	/*key:leaderf-last:<space>l*
 key:leaderf-line:<space>/	keybinding.txt	/*key:leaderf-line:<space>\/*
 key:leaderf-recent-file:<space>F	keybinding.txt	/*key:leaderf-recent-file:<space>F*
 key:mouse-open/close:=m,\m	keybinding.txt	/*key:mouse-open\/close:=m,\\m*

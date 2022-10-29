@@ -60,7 +60,7 @@ buffer save
 调试下一步
                                                              *key:debug-step:F8*
 调试进入
-                                                             *key:coc-goto-define:<leader>u,gD*
+                                                             *key:coc-goto-define:<leader>u,gd*
 去到定义
                                                              *key:coc-goto-type-define:<leader>U,gD,<c-leftmouse>*
 去到类型定义
@@ -84,8 +84,10 @@ lsp的action
 格式化代码
                                                              *key:coc-config:<space><space>c*
 coc配置
-                                                             *key:coc-list-exten:<space>l*
+                                                             *key:coc-list-exten:<space><space>l*
 coc安装插件列表
+                                                             *key:leaderf-last:<space>l*
+上一次leaderf搜索
                                                              *key:leaderf-find-word:<space>a*
 查找单词
                                                              *key:leaderf-find-select-word:<space>a*
@@ -152,5 +154,7 @@ quickfix跳转
 邮箱快速输入
                                                              *key:indent-buffer:=e*
 整个buffer缩进
+                                                             *key:indent-buffer:<leader>e*
+整个buffer选中
 ==============================================================================
 vim:tw=78:sw=4:ts=8:ft=help:norl:noet:
