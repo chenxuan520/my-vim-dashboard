@@ -108,10 +108,14 @@ coc安装插件列表
 查找快捷键帮助
                                                              *key:leaderf-find-file:<space>f*
 查找文件
+                                                             *key:leaderf-jump-tags:<space>j*
+跳转当前缓冲区tag
+                                                             *key:leaderf-jump-tags:<space>J*
+跳转所有缓冲区tags
                                                              *key:leaderf-buffer:<space>b*
 查找buffer
                                                              *key:leaderf-dir-root-open/close:=l,\l*
-开启leaderf
+开启leaderf在根目录下
                                                              *key:easy-motion:<leader>w*
 快速移动光标(按单词)
                                                              *key:easy-motion-f:<leader>f*
@@ -154,7 +158,7 @@ quickfix跳转
 邮箱快速输入
                                                              *key:indent-buffer:=e*
 整个buffer缩进
-                                                             *key:indent-buffer:<leader>e*
+                                                             *key:indent-buffer:vae*
 整个buffer选中
 ==============================================================================
 vim:tw=78:sw=4:ts=8:ft=help:norl:noet:

@@ -55,8 +55,8 @@ key:easy-motion:<leader>w	keybinding.txt	/*key:easy-motion:<leader>w*
 key:email-quick(insert):;e<space>	keybinding.txt	/*key:email-quick(insert):;e<space>*
 key:git-all:<leader>G	keybinding.txt	/*key:git-all:<leader>G*
 key:git-file:<leader>g	keybinding.txt	/*key:git-file:<leader>g*
-key:indent-buffer:<leader>e	keybinding.txt	/*key:indent-buffer:<leader>e*
 key:indent-buffer:=e	keybinding.txt	/*key:indent-buffer:=e*
+key:indent-buffer:vae	keybinding.txt	/*key:indent-buffer:vae*
 key:indentline-open/close:=i,\i	keybinding.txt	/*key:indentline-open\/close:=i,\\i*
 key:leaderf-buffer:<space>b	keybinding.txt	/*key:leaderf-buffer:<space>b*
 key:leaderf-dir-root-open/close:=l,\l	keybinding.txt	/*key:leaderf-dir-root-open\/close:=l,\\l*
@@ -68,6 +68,8 @@ key:leaderf-function-list-all:<leader>T	keybinding.txt	/*key:leaderf-function-li
 key:leaderf-function-list:<leader>t	keybinding.txt	/*key:leaderf-function-list:<leader>t*
 key:leaderf-help-key:<space>H	keybinding.txt	/*key:leaderf-help-key:<space>H*
 key:leaderf-help:<space>h	keybinding.txt	/*key:leaderf-help:<space>h*
+key:leaderf-jump-tags:<space>J	keybinding.txt	/*key:leaderf-jump-tags:<space>J*
+key:leaderf-jump-tags:<space>j	keybinding.txt	/*key:leaderf-jump-tags:<space>j*
 key:leaderf-last:<space>l	keybinding.txt	/*key:leaderf-last:<space>l*
 key:leaderf-line:<space>/	keybinding.txt	/*key:leaderf-line:<space>\/*
 key:leaderf-recent-file:<space>F	keybinding.txt	/*key:leaderf-recent-file:<space>F*
