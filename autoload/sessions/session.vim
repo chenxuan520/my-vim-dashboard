@@ -83,6 +83,7 @@ function! sessions#session#session_remove(name)
 
   if filereadable(file_path)
 	  silent call delete(file_path)
+      echo 'session remove success'
   else
 	  echomsg 'the session '.file_path.' not found'
   endif

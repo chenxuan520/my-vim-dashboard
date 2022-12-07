@@ -30,13 +30,16 @@ key:buffer-next/last:<leader>n/p	keybinding.txt	/*key:buffer-next\/last:<leader>
 key:buffer-save:c-m,<cr>	keybinding.txt	/*key:buffer-save:c-m,<cr>*
 key:coc-code-action:<leader>a	keybinding.txt	/*key:coc-code-action:<leader>a*
 key:coc-config:<space><space>c	keybinding.txt	/*key:coc-config:<space><space>c*
-key:coc-fix:<leader>ff	keybinding.txt	/*key:coc-fix:<leader>ff*
+key:coc-fix:<leader>qq	keybinding.txt	/*key:coc-fix:<leader>qq*
 key:coc-format-code:<leader><leader>f/:Format	keybinding.txt	/*key:coc-format-code:<leader><leader>f\/:Format*
 key:coc-goto-define:<leader>u,gd	keybinding.txt	/*key:coc-goto-define:<leader>u,gd*
+key:coc-goto-implementation:gi	keybinding.txt	/*key:coc-goto-implementation:gi*
 key:coc-goto-refence:gr	keybinding.txt	/*key:coc-goto-refence:gr*
+key:coc-goto-tag:<space><space>j	keybinding.txt	/*key:coc-goto-tag:<space><space>j*
 key:coc-goto-type-define:<leader>U,gD,<c-leftmouse>	keybinding.txt	/*key:coc-goto-type-define:<leader>U,gD,<c-leftmouse>*
 key:coc-help-current:K	keybinding.txt	/*key:coc-help-current:K*
 key:coc-list-exten:<space><space>l	keybinding.txt	/*key:coc-list-exten:<space><space>l*
+key:coc-mouse-open/close:=c,\c	keybinding.txt	/*key:coc-mouse-open\/close:=c,\\c*
 key:coc-refactor:<space>r	keybinding.txt	/*key:coc-refactor:<space>r*
 key:coc-rename:<leader>r	keybinding.txt	/*key:coc-rename:<leader>r*
 key:coc-wrong-list:<space>w,=w	keybinding.txt	/*key:coc-wrong-list:<space>w,=w*
@@ -53,6 +56,8 @@ key:easy-motion-f:<leader>f	keybinding.txt	/*key:easy-motion-f:<leader>f*
 key:easy-motion-line:<leader>l/k	keybinding.txt	/*key:easy-motion-line:<leader>l\/k*
 key:easy-motion:<leader>w	keybinding.txt	/*key:easy-motion:<leader>w*
 key:email-quick(insert):;e<space>	keybinding.txt	/*key:email-quick(insert):;e<space>*
+key:fold-open/close:=o,\o	keybinding.txt	/*key:fold-open\/close:=o,\\o*
+key:fold-open/close:=z,\z	keybinding.txt	/*key:fold-open\/close:=z,\\z*
 key:git-all:<leader>G	keybinding.txt	/*key:git-all:<leader>G*
 key:git-file:<leader>g	keybinding.txt	/*key:git-file:<leader>g*
 key:indent-buffer:=e	keybinding.txt	/*key:indent-buffer:=e*
