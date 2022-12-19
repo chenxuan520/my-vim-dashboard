@@ -29,10 +29,10 @@ function! s:wrap(seq)
   endif
   silent! autocmd! slash
   set hlsearch
-  if g:slash_auto_middle==1
-	  return a:seq."zz"."\<plug>(slash-trailer)"
+  if g:slash_auto_middle==1&&(a:seq=='n'||a:seq=='N')
+    return a:seq."\<plug>(slash-trailer)" . "zz"
   else
-	  return a:seq."\<plug>(slash-trailer)"
+    return a:seq."\<plug>(slash-trailer)"
   endif
 endfunction
 
@@ -125,9 +125,9 @@ noremap  <expr> <plug>(slash-prev)    <sid>prev()
 inoremap        <plug>(slash-prev)    <nop>
 noremap!        <plug>(slash-nop)     <nop>
 
-map  <expr> n    <sid>wrap('n')
-map  <expr> N    <sid>wrap('N')
-nmap  <expr> *    <sid>wrap(<sid>immobile('*'))
-nmap  <expr> #    <sid>wrap(<sid>immobile('#'))
+map   <expr>n    <sid>wrap('n')
+map   <expr>N    <sid>wrap('N')
+nmap  <expr>*    <sid>wrap(<sid>immobile('*'))
+nmap  <expr>#    <sid>wrap(<sid>immobile('#'))
 xnoremap * :<C-u>call <SID>vsearch('/')<CR>/<C-R>=@/<CR><CR>N
 xnoremap # :<C-u>call <SID>vsearch('?')<CR>?<C-R>=@/<CR><CR>N

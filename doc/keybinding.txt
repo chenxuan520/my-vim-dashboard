@@ -174,5 +174,11 @@ quickfix跳转
 折行打开/关闭
                                                              *key:linenumber-open/close:=n,\n*
 绝对行号打开/关闭
+                                                             *key:recent-close-buffer:<leader>q*
+最近关闭的buffer
+                                                             *key:goto-link:gl,gx*
+打开光标所在的链接
+                                                             *key:gitgutter-open/close/next/last:=g,\g.]g,[g*
+文件git更改打开/关闭/下一个不同/上一个不同
 ==============================================================================
 vim:tw=78:sw=4:ts=8:ft=help:norl:noet:

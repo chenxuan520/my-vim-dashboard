@@ -60,6 +60,8 @@ key:fold-open/close:=o,\o	keybinding.txt	/*key:fold-open\/close:=o,\\o*
 key:fold-open/close:=z,\z	keybinding.txt	/*key:fold-open\/close:=z,\\z*
 key:git-all:<leader>G	keybinding.txt	/*key:git-all:<leader>G*
 key:git-file:<leader>g	keybinding.txt	/*key:git-file:<leader>g*
+key:gitgutter-open/close/next/last:=g,\g.]g,[g	keybinding.txt	/*key:gitgutter-open\/close\/next\/last:=g,\\g.]g,[g*
+key:goto-link:gl,gx	keybinding.txt	/*key:goto-link:gl,gx*
 key:indent-buffer:=e	keybinding.txt	/*key:indent-buffer:=e*
 key:indent-buffer:vae	keybinding.txt	/*key:indent-buffer:vae*
 key:indentline-open/close:=i,\i	keybinding.txt	/*key:indentline-open\/close:=i,\\i*
@@ -78,6 +80,7 @@ key:leaderf-jump-tags:<space>j	keybinding.txt	/*key:leaderf-jump-tags:<space>j*
 key:leaderf-last:<space>l	keybinding.txt	/*key:leaderf-last:<space>l*
 key:leaderf-line:<space>/	keybinding.txt	/*key:leaderf-line:<space>\/*
 key:leaderf-recent-file:<space>F	keybinding.txt	/*key:leaderf-recent-file:<space>F*
+key:linenumber-open/close:=n,\n	keybinding.txt	/*key:linenumber-open\/close:=n,\\n*
 key:mouse-open/close:=m,\m	keybinding.txt	/*key:mouse-open\/close:=m,\\m*
 key:name-quick(insert):;n<space>	keybinding.txt	/*key:name-quick(insert):;n<space>*
 key:nerdtree-file-tree:<leader>n	keybinding.txt	/*key:nerdtree-file-tree:<leader>n*
@@ -87,6 +90,7 @@ key:plug-clean:<leader><leader>c	keybinding.txt	/*key:plug-clean:<leader><leader
 key:plug-install:<leader><leader>i	keybinding.txt	/*key:plug-install:<leader><leader>i*
 key:quickfix-next/last:[q,]q	keybinding.txt	/*key:quickfix-next\/last:[q,]q*
 key:quickfix-open/delete:=q,\q	keybinding.txt	/*key:quickfix-open\/delete:=q,\\q*
+key:recent-close-buffer:<leader>q	keybinding.txt	/*key:recent-close-buffer:<leader>q*
 key:reload-vimrc:<leader><leader>s	keybinding.txt	/*key:reload-vimrc:<leader><leader>s*
 key:right(insert):<ctrl+l>	keybinding.txt	/*key:right(insert):<ctrl+l>*
 key:spell-open/close:=s,\s	keybinding.txt	/*key:spell-open\/close:=s,\\s*
@@ -99,6 +103,7 @@ key:up/down(insert):<ctrl+j/k>	keybinding.txt	/*key:up\/down(insert):<ctrl+j\/k>
 key:window-cursor-change:<ctrl+h/j/k/l>	keybinding.txt	/*key:window-cursor-change:<ctrl+h\/j\/k\/l>*
 key:window-location-change:<ctrl+shift+up/down/left/right>	keybinding.txt	/*key:window-location-change:<ctrl+shift+up\/down\/left\/right>*
 key:window-size-change:<ctrl+up/down/left/right>	keybinding.txt	/*key:window-size-change:<ctrl+up\/down\/left\/right>*
+key:wrap-line-open/close:=r,\r	keybinding.txt	/*key:wrap-line-open\/close:=r,\\r*
 keybinding	keybinding.txt	/*keybinding*
 keybinding	keybinding.txt	/*keybinding*
 keybinding-commands	keybinding.txt	/*keybinding-commands*
