@@ -47,6 +47,7 @@ key:coc-wrong-next/last:[w,]w	keybinding.txt	/*key:coc-wrong-next\/last:[w,]w*
 key:color-change:<F1>	keybinding.txt	/*key:color-change:<F1>*
 key:comment-code:gcc	keybinding.txt	/*key:comment-code:gcc*
 key:copy-system:<leader><leader>y	keybinding.txt	/*key:copy-system:<leader><leader>y*
+key:cursorline-open/close/toggle:=f,\f,-f	keybinding.txt	/*key:cursorline-open\/close\/toggle:=f,\\f,-f*
 key:debug-break:F6	keybinding.txt	/*key:debug-break:F6*
 key:debug-next:F7	keybinding.txt	/*key:debug-next:F7*
 key:debug-open:<leader><leader>d,F5	keybinding.txt	/*key:debug-open:<leader><leader>d,F5*
@@ -56,12 +57,14 @@ key:easy-motion-f:<leader>f	keybinding.txt	/*key:easy-motion-f:<leader>f*
 key:easy-motion-line:<leader>l/k	keybinding.txt	/*key:easy-motion-line:<leader>l\/k*
 key:easy-motion:<leader>w	keybinding.txt	/*key:easy-motion:<leader>w*
 key:email-quick(insert):;e<space>	keybinding.txt	/*key:email-quick(insert):;e<space>*
+key:findkey-open/close/toggle:<leader>h,-h,[h,]h	keybinding.txt	/*key:findkey-open\/close\/toggle:<leader>h,-h,[h,]h*
 key:fold-open/close:=o,\o	keybinding.txt	/*key:fold-open\/close:=o,\\o*
 key:fold-open/close:=z,\z	keybinding.txt	/*key:fold-open\/close:=z,\\z*
 key:git-all:<leader>G	keybinding.txt	/*key:git-all:<leader>G*
 key:git-file:<leader>g	keybinding.txt	/*key:git-file:<leader>g*
-key:gitgutter-open/close/next/last:=g,\g.]g,[g	keybinding.txt	/*key:gitgutter-open\/close\/next\/last:=g,\\g.]g,[g*
+key:gitgutter-open/close/next/last:=g,\g,]g,[g,-g	keybinding.txt	/*key:gitgutter-open\/close\/next\/last:=g,\\g,]g,[g,-g*
 key:goto-link:gl,gx	keybinding.txt	/*key:goto-link:gl,gx*
+key:hlsearch-open/close:=h,\h	keybinding.txt	/*key:hlsearch-open\/close:=h,\\h*
 key:indent-buffer:=e	keybinding.txt	/*key:indent-buffer:=e*
 key:indent-buffer:vae	keybinding.txt	/*key:indent-buffer:vae*
 key:indentline-open/close:=i,\i	keybinding.txt	/*key:indentline-open\/close:=i,\\i*
@@ -79,6 +82,7 @@ key:leaderf-jump-tags:<space>J	keybinding.txt	/*key:leaderf-jump-tags:<space>J*
 key:leaderf-jump-tags:<space>j	keybinding.txt	/*key:leaderf-jump-tags:<space>j*
 key:leaderf-last:<space>l	keybinding.txt	/*key:leaderf-last:<space>l*
 key:leaderf-line:<space>/	keybinding.txt	/*key:leaderf-line:<space>\/*
+key:leaderf-quickfix:<space>Q	keybinding.txt	/*key:leaderf-quickfix:<space>Q*
 key:leaderf-recent-file:<space>F	keybinding.txt	/*key:leaderf-recent-file:<space>F*
 key:linenumber-open/close:=n,\n	keybinding.txt	/*key:linenumber-open\/close:=n,\\n*
 key:mouse-open/close:=m,\m	keybinding.txt	/*key:mouse-open\/close:=m,\\m*
@@ -90,7 +94,7 @@ key:plug-clean:<leader><leader>c	keybinding.txt	/*key:plug-clean:<leader><leader
 key:plug-install:<leader><leader>i	keybinding.txt	/*key:plug-install:<leader><leader>i*
 key:quickfix-next/last:[q,]q	keybinding.txt	/*key:quickfix-next\/last:[q,]q*
 key:quickfix-open/delete:=q,\q	keybinding.txt	/*key:quickfix-open\/delete:=q,\\q*
-key:recent-close-buffer:<leader>q	keybinding.txt	/*key:recent-close-buffer:<leader>q*
+key:recent-close-buffer:<space>q	keybinding.txt	/*key:recent-close-buffer:<space>q*
 key:reload-vimrc:<leader><leader>s	keybinding.txt	/*key:reload-vimrc:<leader><leader>s*
 key:right(insert):<ctrl+l>	keybinding.txt	/*key:right(insert):<ctrl+l>*
 key:spell-open/close:=s,\s	keybinding.txt	/*key:spell-open\/close:=s,\\s*
