@@ -17,7 +17,7 @@ function! sessions#session#session_save(name)
   if ! isdirectory(g:session_directory)
     call mkdir(g:session_directory, 'p')
   endif
-  let file_name = empty(a:name) ? 'session' : a:name
+  let file_name = empty(a:name) ? '.session' : a:name
 
   if g:session_directory=='root'
     if s:FindRoot()!=""
@@ -37,7 +37,7 @@ function! sessions#session#session_save(name)
 endfunction
 
 function! sessions#session#session_load(name)
-  let file_name = empty(a:name) ? 'session' : a:name
+  let file_name = empty(a:name) ? '.session' : a:name
 
   if g:session_directory=='root'
     if s:FindRoot()!=""
@@ -70,7 +70,7 @@ function! sessions#session#session_load(name)
 endfunction
 
 function! sessions#session#session_remove(name)
-  let file_name = empty(a:name) ? 'session' : a:name
+  let file_name = empty(a:name) ? '.session' : a:name
 
   if g:session_directory=='root'
     if s:FindRoot()!=""
