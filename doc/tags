@@ -30,7 +30,7 @@ key:buffer-next/last:<leader>n/p	keybinding.txt	/*key:buffer-next\/last:<leader>
 key:buffer-save:c-m,<cr>	keybinding.txt	/*key:buffer-save:c-m,<cr>*
 key:coc-code-action:<leader>a	keybinding.txt	/*key:coc-code-action:<leader>a*
 key:coc-config:<space><space>c	keybinding.txt	/*key:coc-config:<space><space>c*
-key:coc-fix:<leader>qq	keybinding.txt	/*key:coc-fix:<leader>qq*
+key:coc-fix:-w	keybinding.txt	/*key:coc-fix:-w*
 key:coc-format-code:<leader><leader>f/:Format	keybinding.txt	/*key:coc-format-code:<leader><leader>f\/:Format*
 key:coc-goto-define:<leader>u,gd	keybinding.txt	/*key:coc-goto-define:<leader>u,gd*
 key:coc-goto-implementation:gi	keybinding.txt	/*key:coc-goto-implementation:gi*
@@ -53,8 +53,7 @@ key:debug-next:F7	keybinding.txt	/*key:debug-next:F7*
 key:debug-open:<leader><leader>d,F5	keybinding.txt	/*key:debug-open:<leader><leader>d,F5*
 key:debug-step:F8	keybinding.txt	/*key:debug-step:F8*
 key:delete-space-endline:d<space>	keybinding.txt	/*key:delete-space-endline:d<space>*
-key:easy-motion-f:<leader>f	keybinding.txt	/*key:easy-motion-f:<leader>f*
-key:easy-motion-line:<leader>l/k	keybinding.txt	/*key:easy-motion-line:<leader>l\/k*
+key:easy-motion-f:<leader>f,s	keybinding.txt	/*key:easy-motion-f:<leader>f,s*
 key:easy-motion:<leader>w	keybinding.txt	/*key:easy-motion:<leader>w*
 key:email-quick(insert):;e<space>	keybinding.txt	/*key:email-quick(insert):;e<space>*
 key:findkey-open/close/toggle:<leader>h,-h,[h,]h	keybinding.txt	/*key:findkey-open\/close\/toggle:<leader>h,-h,[h,]h*
@@ -86,6 +85,7 @@ key:leaderf-quickfix:<space>Q	keybinding.txt	/*key:leaderf-quickfix:<space>Q*
 key:leaderf-recent-file:<space>F	keybinding.txt	/*key:leaderf-recent-file:<space>F*
 key:linenumber-open/close:=n,\n	keybinding.txt	/*key:linenumber-open\/close:=n,\\n*
 key:mouse-open/close:=m,\m	keybinding.txt	/*key:mouse-open\/close:=m,\\m*
+key:multiple-cursor:<leader>s,-s	keybinding.txt	/*key:multiple-cursor:<leader>s,-s*
 key:name-quick(insert):;n<space>	keybinding.txt	/*key:name-quick(insert):;n<space>*
 key:nerdtree-file-tree:<leader>n	keybinding.txt	/*key:nerdtree-file-tree:<leader>n*
 key:paste-copy:<leader>p	keybinding.txt	/*key:paste-copy:<leader>p*
@@ -102,6 +102,7 @@ key:tabular-aligen:<leader>T	keybinding.txt	/*key:tabular-aligen:<leader>T*
 key:term-inside-space:<leader><leader>T	keybinding.txt	/*key:term-inside-space:<leader><leader>T*
 key:term-inside:<leader><leader>t	keybinding.txt	/*key:term-inside:<leader><leader>t*
 key:termtask-project-config:<space>c	keybinding.txt	/*key:termtask-project-config:<space>c*
+key:termtask-project-load:Q	keybinding.txt	/*key:termtask-project-load:Q*
 key:termtask-project-project:<space>C	keybinding.txt	/*key:termtask-project-project:<space>C*
 key:up/down(insert):<ctrl+j/k>	keybinding.txt	/*key:up\/down(insert):<ctrl+j\/k>*
 key:window-cursor-change:<ctrl+h/j/k/l>	keybinding.txt	/*key:window-cursor-change:<ctrl+h\/j\/k\/l>*

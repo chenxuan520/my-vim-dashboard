@@ -9,7 +9,7 @@ CONTENTS                                                     *keybinding-content
 ==============================================================================
 INTRO                                                           *keybinding-intro*
 
-keybinding is a plugin that shows the key binding
+keybinding is a plugin that shows the key binding,(only use for vim-fast)
 
 ==============================================================================
 COMMANDS                                                     *keybinding-commands*
@@ -74,7 +74,7 @@ tag列表
 重命名
                                                              *key:coc-refactor:<space>r*
 高级重命名
-                                                             *key:coc-fix:<leader>qq*
+                                                             *key:coc-fix:-w*
 快速修复
                                                              *key:coc-wrong-list:<space>w,=w*
 错误列表
@@ -126,10 +126,8 @@ quickfix搜索
 开启leaderf在根目录下
                                                              *key:easy-motion:<leader>w*
 快速移动光标(按单词)
-                                                             *key:easy-motion-f:<leader>f*
+                                                             *key:easy-motion-f:<leader>f,s*
 快速移动光标(按字母)
-                                                             *key:easy-motion-line:<leader>l/k*
-快速移动光标(按行)
                                                              *key:git-file:<leader>g*
 当前文件commit图
                                                              *key:git-all:<leader>G*
@@ -138,6 +136,8 @@ quickfix搜索
 项目配置文件打开
                                                              *key:termtask-project-project:<space>C*
 项目运行
+                                                             *key:termtask-project-load:Q*
+项目加载配置
                                                              *key:async-find-word:<leader>A*
 ack搜索单词
                                                              *key:async-run:<space>;*
@@ -188,5 +188,7 @@ quickfix跳转
 高亮光标所在单词/关闭高亮/固定高亮
                                                              *key:findkey-open/close/toggle:<leader>h,-h,[h,]h*
 搜索按键绑定/直接跳转按键绑定/上一个/下一个
+                                                             *key:multiple-cursor:<leader>s,-s*
+多光标操作打开/关闭
 ==============================================================================
 vim:tw=78:sw=4:ts=8:ft=help:norl:noet:
