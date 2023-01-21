@@ -30,7 +30,7 @@ augroup dashboard
   autocmd VimEnter * nested call s:loaded_dashboard()
   if s:disable_statusline
     autocmd FileType dashboard ++once set laststatus=0|set showtabline=0|set noruler
-    autocmd bufleave <buffer> ++once set laststatus=2|set showtabline=2|set noruler
+    autocmd bufleave <buffer> ++once set laststatus=2|set showtabline=2|set ruler
   endif
   " autocmd BufReadPost * call dashboard#change_to_dir(expand("%:p"))
 augroup END
