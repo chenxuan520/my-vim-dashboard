@@ -32,7 +32,7 @@ function! sessions#session#session_save(name)
   let v:this_session = file_path
 
   echohl MoreMsg
-  echo 'Session `'.file_name.'` is now saved'
+  echo 'Session `'.file_name.'.vim` is now saved'
   echohl None
 endfunction
 
