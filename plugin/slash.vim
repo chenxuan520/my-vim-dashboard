@@ -99,12 +99,12 @@ function! s:StarFind(seq,hlcmd)
 			autocmd CursorMoved,CursorMovedI * set nohlsearch | autocmd! slash
 		augroup END
 	endif
-	redraw!
 	if g:slash_auto_star_middle
 		let end="zz"
 	else
 		let end=""
 	endif
+	redraw!
 	return end
 endfunction
 
@@ -178,3 +178,4 @@ xnoremap <silent>#  :<C-u>call <SID>vsearch('?')<cr>:call <sid>StarFind('',1):le
 xnoremap <silent>g* :<C-u>call <SID>vsearch('/')<cr>:call <sid>StarFind('',0)<cr>
 xnoremap <silent>g8 :<C-u>call <SID>vsearch('/')<cr>:call <sid>StarFind('',0)<cr>
 xnoremap <silent>g# :<C-u>call <SID>vsearch('?')<cr>:call <sid>StarFind('',0):let v:searchforward=0<cr>
+xnoremap <silent>g8 :<C-u>call <SID>vsearch('/')<cr>:call <sid>StarFind('',0)<cr>
