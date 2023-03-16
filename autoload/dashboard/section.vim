@@ -16,13 +16,23 @@ else
   let s:dashboard_shortcut['book_marks'] = '[q]    '
 endif
 
-let s:dashboard_shortcut_icon['last_session'] = ' '
-let s:dashboard_shortcut_icon['find_history'] = ' '
-let s:dashboard_shortcut_icon['find_file'] = ' '
-let s:dashboard_shortcut_icon['new_file'] = ' '
-let s:dashboard_shortcut_icon['change_config'] = ' ' " ' '
-let s:dashboard_shortcut_icon['find_word'] = ' '
-let s:dashboard_shortcut_icon['book_marks'] = ' '
+if !exists('g:dashboard_icon_disable')
+  let s:dashboard_shortcut_icon['last_session'] = ' '
+  let s:dashboard_shortcut_icon['find_history'] = ' '
+  let s:dashboard_shortcut_icon['find_file'] = ' '
+  let s:dashboard_shortcut_icon['new_file'] = ' '
+  let s:dashboard_shortcut_icon['change_config'] = ' ' " ' '
+  let s:dashboard_shortcut_icon['find_word'] = ' '
+  let s:dashboard_shortcut_icon['book_marks'] = ' '
+else
+  let s:dashboard_shortcut_icon['last_session'] = ''
+  let s:dashboard_shortcut_icon['find_history'] = ''
+  let s:dashboard_shortcut_icon['find_file'] = ''
+  let s:dashboard_shortcut_icon['new_file'] = ''
+  let s:dashboard_shortcut_icon['change_config'] = '' " ' '
+  let s:dashboard_shortcut_icon['find_word'] = ''
+  let s:dashboard_shortcut_icon['book_marks'] = ''
+endif
 
 if exists('g:dashboard_custom_shortcut_icon')
   call extend(s:dashboard_shortcut_icon, g:dashboard_custom_shortcut_icon,'force')
