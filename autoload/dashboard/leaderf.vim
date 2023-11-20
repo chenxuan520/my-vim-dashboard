@@ -7,7 +7,11 @@ function! dashboard#leaderf#find_history() abort
 endfunction
 
 function! dashboard#leaderf#change_config() abort
-	edit ~/.vimrc
+	if has('nvim')
+		edit ~/.config/nvim/init.vim
+	else
+		edit ~/.vimrc
+	endif
 endfunction
 
 function! dashboard#leaderf#find_word() abort
