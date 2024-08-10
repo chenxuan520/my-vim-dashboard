@@ -19,6 +19,6 @@ function! dashboard#leaderf#find_word() abort
 endfunction
 
 function! dashboard#leaderf#quit() abort
-	execute ':q'
+	execute ':qa'
 endfunction
 
