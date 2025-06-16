@@ -72,6 +72,16 @@ function! dashboard#instance(on_vimenter) abort
     endif
   endif
 
+
+  " append enpty line 1/3 of screen height
+  let cmd_len=dashboard#section#get_section_length()*2+2
+  let header_len=len(g:dashboard_header)+6
+  let sum_len=cmd_len+header_len
+  let s:dashboard_height = (winheight(0)-sum_len) /2
+  for i in range(1,s:dashboard_height)
+    call append('$', s:empty_lines)
+  endfor
+
   if empty(g:dashboard_command) && empty(g:preview_file_path)
     call append('$', g:dashboard_header)
     call append('$', s:empty_lines)

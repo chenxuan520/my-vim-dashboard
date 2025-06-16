@@ -18,7 +18,7 @@ endif
 
 if !exists('g:dashboard_icon_disable')
   let s:dashboard_shortcut_icon['last_session'] = ' '
-  let s:dashboard_shortcut_icon['find_history'] = ' '
+  let s:dashboard_shortcut_icon['find_history'] = ' '
   let s:dashboard_shortcut_icon['find_file'] = ' '
   let s:dashboard_shortcut_icon['new_file'] = ' '
   let s:dashboard_shortcut_icon['change_config'] = ' ' " ' '
@@ -87,6 +87,10 @@ endfunction
 
 function! dashboard#section#instance()
   call s:set_section()
+endfunction
+
+function! dashboard#section#get_section_length()
+  return len(s:Section)
 endfunction
 
 function! s:set_section()
