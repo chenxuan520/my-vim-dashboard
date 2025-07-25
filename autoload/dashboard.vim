@@ -78,6 +78,9 @@ function! dashboard#instance(on_vimenter) abort
   let header_len=len(g:dashboard_header)+6
   let sum_len=cmd_len+header_len
   let s:dashboard_height = (winheight(0)-sum_len) /2
+  if s:dashboard_height<1
+    let s:dashboard_height=2
+  endif
   for i in range(1,s:dashboard_height)
     call append('$', s:empty_lines)
   endfor
