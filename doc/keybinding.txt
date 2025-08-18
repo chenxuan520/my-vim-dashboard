@@ -1,5 +1,4 @@
 *keybinding*  The key binding for vim
-*keybinding*
 ==============================================================================
 CONTENTS                                                     *keybinding-contents*
 
@@ -158,7 +157,7 @@ quickfix跳转
 拼写检查打开/关闭
                                                              *key:indentline-open/close:=i,\i*
 缩进线打开/关闭
-                                                             *key:fold-open/close:=z,\z*
+                                                             *key:global-fold-open/close:=z,\z*
 折叠打开/关闭
                                                              *key:fold-open/close:=o,\o*
 局部折叠打开/关闭
@@ -170,7 +169,7 @@ quickfix跳转
 姓名快速输入
                                                              *key:email-quick(insert):;e<space>*
 邮箱快速输入
-                                                             *key:indent-buffer:=e*
+                                                             *key:all-indent-buffer:=e*
 整个buffer缩进
                                                              *key:indent-buffer:vae*
 整个buffer选中

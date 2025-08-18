@@ -1,5 +1,4 @@
 *slash*  slash options for vim
-*slash*
 ==============================================================================
 CONTENTS                                                     *slash-contents*
     OPTIONS ........................................ |slash-options|

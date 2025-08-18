@@ -138,15 +138,7 @@ function! s:print_plugins_message() abort
   else
     let l:vim = 'vim'
   endif
-  if exists('*dein#get')
-    let l:total_plugins = len(dein#get())
-  elseif exists('*plug#begin')
-    let l:total_plugins = len(keys(g:plugs))
-  else
-    return [' Have fun with ' . l:vim]
-  endif
   let l:footer=[]
-  let footer_string= l:vim .' loaded ' . l:total_plugins . ' plugins '
   let footer_string= strftime("=======20%y.%m.%d(%A)========")
   call insert(l:footer,footer_string)
   return l:footer
