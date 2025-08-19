@@ -10,6 +10,7 @@ if !get(g:, 'dashboard_disable_at_vimenter') && (!has('nvim') || has('nvim-0.3.5
 endif
 
 let s:home_dir = getenv('HOME')
+let s:origin_laststatus = &laststatus
 
 " Options
 let g:dashboard_auto_delete_session = get(g:,'dashboard_auto_delete_session',0)
@@ -30,7 +31,7 @@ augroup dashboard
   autocmd VimEnter * nested call s:loaded_dashboard()
   if s:disable_statusline
     autocmd FileType dashboard ++once set laststatus=0|set showtabline=0|set noruler
-    autocmd bufleave <buffer> ++once set laststatus=2|set showtabline=2|set ruler
+    autocmd bufleave <buffer> ++once let &laststatus=s:origin_laststatus|set showtabline=2|set ruler
   endif
   " autocmd BufReadPost * call dashboard#change_to_dir(expand("%:p"))
 augroup END
